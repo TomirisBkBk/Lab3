@@ -1,0 +1,49 @@
+body {
+    background-color: #FFEBEB;
+    color: #FF4136;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    color: #FF5E5E;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 12px;
+    border: 2px solid #FF5E5E;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 12px;
+}
+
+button[type="submit"] {
+    padding: 18px 36px;
+    font-size: 24px;
+    background-color: #FF5E5E;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #FF1F1F;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.first-text {
+    font-weight: bold;
+    color: #FF3C3C;
+}

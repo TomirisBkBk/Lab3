@@ -1,0 +1,77 @@
+header {
+    text-align: center;
+    position: relative;
+    background-color: rgb(146, 64, 64);
+    height: 200px;
+    font-size: large;
+    font-style: italic;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.content {
+    margin-right: 90px;
+}
+
+.content img {
+    margin-right: 50px;
+    display: inline;
+    width: 100px;
+}
+
+.content-text {
+    margin: 0;
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.telo {
+    display: flex;
+    height: 500px;
+}
+
+.sidebar {
+    display: block;
+    width: 50%;
+    background-color: rgb(111, 45, 45);
+    padding: 20px;
+    font-style: italic;
+    color: aliceblue;
+}
+
+main {
+    width: 50%;
+    padding: 20px 30px;
+    background-color: rgba(235, 102, 99, 0.732);
+    font-style: italic;
+    color: aliceblue;
+}
+
+.main-text {
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(147, 57, 57);
+    height: 300px;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.footer_content {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+
+.footer-inst {
+    margin-left: 10px;
+}
+
+.footer-contact {
+    margin-right: 10px;
+}
